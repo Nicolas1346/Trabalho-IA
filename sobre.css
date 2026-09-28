@@ -1,0 +1,40 @@
+.sobre-texto {
+    max-width: 720px;
+    margin: 0 auto 50px;
+}
+
+.sobre-texto p {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 18px;
+}
+
+.grade-valores {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.card-valor-item {
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 14px;
+    padding: 24px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06);
+    text-align: center;
+}
+
+.card-valor-item h3 {
+    color: #111111;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.card-valor-item p {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+    line-height: 1.5;
+}
